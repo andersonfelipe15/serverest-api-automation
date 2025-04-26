@@ -10,17 +10,14 @@ O objetivo é validar os principais endpoints da aplicação, como cadastro de u
 
 1. Clone o repositório:
 
-```bash
 git clone https://github.com/andersonfelipe15/serverest-api-automation.git
 
 2. Acesse a pasta do projeto:
 
-```bash
 cd serverest-cypress-api-tests
 
 3. Instale as dependências:
 
-```bash
 npm install
 
 4. Instale o Cypress (se ainda não estiver instalado):
