@@ -34,21 +34,24 @@ npx cypress open
 
 npx cypress run
 
-🏛 Organização do Projeto:
+# Organização do Projeto
+
+```bash
 serverest-cypress-api-tests/
 ├── cypress/
-    │   ├── e2e/
-        │   │   └── api/
-│       │             ├── produtos_api_test.cy.js
-│       │             ├── usuarios_api_test.cy.js
-│       │             ├── carrinhos_api_test.cy.js
-│       │             └── login_api_test.cy.js
-│       └── support/
-│           └── e2e.js
-            └── commands.js
-    ├── cypress.config.js
-    ├── package.json
-    └── README.md
+│   ├── e2e/
+│   │   ├── api/
+│   │   │   ├── produtos_api_test.cy.js
+│   │   │   ├── usuarios_api_test.cy.js
+│   │   │   ├── carrinhos_api_test.cy.js
+│   │   │   └── login_api_test.cy.js
+│   ├── support/
+│   │   ├── e2e.js
+│   │   └── commands.js
+├── cypress.config.js
+├── package.json
+└── README.md
+
 
 - cypress/e2e/api/: contém todos os testes da API separados por funcionalidade.
 
