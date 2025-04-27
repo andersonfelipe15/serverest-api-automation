@@ -1,0 +1,13 @@
+{
+    "name": "api-cypress-240425",
+    "version": "1.0.0",
+    "description": "Testes automatizados de API usando Cypress com a API Serverest",
+    "scripts": {
+      "test": "cypress run",
+      "cy:open": "cypress open"
+    },
+    "devDependencies": {
+      "cypress": "^12.17.1"
+    }
+  }
+  
