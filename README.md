@@ -16,11 +16,11 @@ git clone https://github.com/andersonfelipe15/serverest-api-automation.git
 
 cd serverest-cypress-api-tests
 
-3. Instale as dependências:
+3. INSTALE AS DEPENDENCIAS:
 
-npm install
+npm init -y
 
-4. Instale o Cypress (se ainda não estiver instalado):
+4. E DEPOIS RODE:
 
 npm install cypress --save-dev
 
